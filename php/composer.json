@@ -1,0 +1,19 @@
+{
+    "name": "liqi/realize-jwt",
+    "description": "to realize jwt",
+    "type": "library",
+    "authors": [
+        {
+            "name": "accelerates",
+            "email": "932062765@qq.com"
+        }
+    ],
+    "require": {
+        "phpunit/php-code-coverage": "^5.0"
+    },
+    "autoload":{
+        "psr-4": {
+            "JWT\\": "src/"
+        }
+    }
+}
